@@ -1,2 +1,44 @@
 bluuweb
 https://bluuweb.github.io/tutorial-github/
+
+git init
+git status -s
+git status
+git add <file>
+git add .
+git commit -m "first commit"
+git log
+git log --oneline
+
+//viajamos al commit en especifico y podemos restaurar los archivos o eliminando los cambios futuros
+git reset --hard <indetificador>
+
+
+
+git push
+
+git remote -v
+
+git pull
+
+//este comando hace la comparación de nuestros archivos locales con los del remoto.
+//si existe alguna diferencia nos permite realizar un get pull para realizar un match de nuestros archivos locales.
+git fetch
+
+TAGS
+Con los tags podemos hacer versiones de nuestro proyecto.
+
+// Crear un tags
+git tag versionAlpha -m "versión alpha"
+
+// Listar tags
+git tag
+
+// Borrar tags
+git tag -d <nombreTags>
+
+// Hacer una versión de un commit anterior ej:
+git tag -a nombreTag <identificador del commit> -m "version alpha"
+
+// Mostrar información del tag
+git show <nombreTag>
