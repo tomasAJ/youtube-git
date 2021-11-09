@@ -42,3 +42,6 @@ git tag -a nombreTag <identificador del commit> -m "version alpha"
 
 // Mostrar información del tag
 git show <nombreTag>
+
+Subir los tags
+git push --tags 
